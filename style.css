@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("Assets/imgs/home-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+.main .box {
+    position: absolute;
+    top: 0;
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.39;
+}
+
+
+
+/*                    style navBar start                             */
+
+
+.nav {
+    padding: 10px;
+    height: 60px;
+    width: 80vw;
+    margin: auto;
+    /* background-color: red; */
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    z-index: 50;
+
+}
+
+.btns {
+    position: relative;
+    z-index: 50;
+}
+
+/* .btns button{
+    padding: 5px 0px;
+    margin: 0px 10px;
+    border: none;
+}
+.btns .signin{
+    background-color: red;
+} */
+
+
+
+/*                   style navBar End                         */
+
+
+
+/*          style content start          */
+
+
+.hero {
+    height: calc(100% - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    z-index: 50px;
+    text-align: center;
+}
+
+.hero> :nth-child(1) {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: "Baloo 2", sans-serif;
+}
+
+.hero> :nth-child(2) {
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    font-family: "Baloo 2", sans-serif;
+}
+
+.hero> :nth-child(3) {
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    font-family: "Baloo 2", sans-serif;
+}
+
+
+.son {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(253, 253, 253, 0.3);
+    color: white;
+    border-radius: 4px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 6px 18px;
+    border-radius: 4px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+}
+
+.main input,
+.faqs input {
+    padding: 7px 101px 7px 3px;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(253, 253, 253, 0.3);
+    font-weight: 600;
+    color: white;
+}
+
+
+
+.line {
+    height: 8px;
+    background-color: rgb(45, 42, 42);
+}
+
+
+
+/*          style content end    */
+
+
+
+/*   style section */
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+    width: 555px;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-family: "Baloo 2", sans-serif;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 25px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 91vw;
+    color: white;
+}
+
+
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    position: relative;
+    z-index: 10;
+    width: 556px;
+}
+
+.secImg video {
+    /* position: absolute;
+    top: 50px;
+    right: 38px;*/
+    width: 554px;
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+
+
+.third .secImg video {
+    width: 355px;
+    position: absolute;
+    top: 53px;
+    right: 98px;
+
+}
+
+
+/*   section style end */
+
+
+
+/*    FAQS  style  start */
+
+
+
+.faqs {
+    margin: 40px;
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 90vh; */
+    height: auto;
+    gap: 10px;
+}
+
+.faqs .faqs-head {
+    font-size: 2.5rem;
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 900;
+    display: flex;
+    width: 60vw;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.faqs .faqs-B {
+    font-family: "Baloo 2", sans-serif;
+    border-radius: 4px;
+    padding: 15px 18px;
+    font-size: 18px;
+    display: flex;
+    width: 80vw;
+    /* border: 2px solid red; */
+    background-color: #463e3e;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.faqs-text {
+    font-size: 18px;
+    font-family: "Baloo 2", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.faqs .faqs-B :nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*    FAQS style end    */
+
+
+
+
+@media screen and (max-width: 955px) {
+
+    /* body{
+        background-color: red;
+    } */
+
+    .first {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .secImg img{
+        width: 305px;
+    }
+    .secImg{
+        width: 305px;
+    }
+    .secImg video {
+        width: 305px;
+        position: absolute;
+        top: 51px;
+        right: 0;
+    }
+
+    section.first>div{
+        width: 305px;
+        align-items: center;
+    }
+
+    .third .secImg video {
+        width: 200px;
+        position: absolute;
+        top: 53px;
+        right: 53px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+
+    section.first>div :nth-child(1) {
+        font-size: 32px;
+    }
+    section.first>div :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .faqs .faqs-head {
+        text-align: center;
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (max-width:410px) {
+    .son{
+        flex-direction: column;
+    }
+
+    .nav{
+        width: 90vw;
+    }
+    .footer{
+        margin-left: 30px;
+    }
+}
